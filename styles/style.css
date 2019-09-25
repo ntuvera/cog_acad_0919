@@ -1,0 +1,30 @@
+.post-container {
+	background-color: lightgray;
+	/* width: 80%; */
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	border-radius: 5px;
+	/* box shadow */
+}
+.modal{
+	z-index: 1000
+}
+
+/* use static for now until you decide on relative percents */
+.signup-modal {
+	height: 500px;
+	width: 400px;
+}
+.post-modal {
+	height: 500px;
+	width: 800px;
+}
+
+#postholder {
+	/* align: center; */
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+
+}
